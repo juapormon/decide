@@ -22,3 +22,4 @@ script:
 notifications:
   email:
     - juapormon@alum.us.es
+  on_success: always
