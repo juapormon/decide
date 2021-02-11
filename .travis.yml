@@ -24,3 +24,8 @@ notifications:
     recipients:
       - juapormon@alum.us.es
     on_success: always
+deploy:
+  provider: heroku
+  app: jppm-decide-app
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
