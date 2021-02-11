@@ -29,5 +29,6 @@ deploy:
   provider: heroku
   app: jppm-decide-app
   strategy: git
-  api_key: $HEROKU_AUTH_TOKEN
-  
+  api_key:
+    secure: ih51+Iw5bnO2xi9IXsoNIBuTqUSFhp7fabc3bdTmYxpkhHH3Gwwnsg0KSB9VBVkgdrejnqaV1fTFCP5LpcKHoby2wxPMjTZOTVhk0avQqZpmtSMojps4FGiJAGPYGgjB7HOlljpEI2jxofawaJW+tD6bzCX4/1E/601EJ/ma3MWX9JZT1rdhhiiDhX4CJULa/d7flziQuuPtiFC4a10+n2r1VhWo8rNeKM5AB5H1R5XLJyfv6Lpvt0zO/16cNJ/kMoA5o94RePThODiKSQ9iObwf+JEwKn+g6fxR7dC5kbYL2TgiMufYIpKh5TT14ZZ6eScvMndNuThNcNgjrzQJNvLeM3FfsZoe6rOREe0HcZEp75wrxpgPXvXJjx/kfY8vUvWHWdcLC1rDGcTZCPNwU44XX+JvTor7QLPB2bypgZ+nTB/AY0tkOdG65av4nj8B65CSd+/oC/0RwRCRVzQn3j8OThTyFTr+yXdTUUsKNEhiv/0WwQv9BljWmVBCrmkTYV+3LFpsOL4zKMp0KuglDnbNHUmnMg+mGH+1LyWYDEI4+fwP/6y5Hyfcw+FgrRkokNBS6pjzyl2QTfHHLbirp+uK+dwYlHuzSM46W0HnNbi1KdtDSu0Ths6lN7XN2CN3mNjNoQ6Be7ZySaZ8Wit1lnfPmktpGDdyM/aGjgBQr8A=
+
